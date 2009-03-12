@@ -1,0 +1,17 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+before useing sshsudo
+
+
+= Details =
+
+1. check "sshpass"  is exist.
+
+2. hosts_key in your file(~/.ssh/known_hosts)
+
+3. check dest_host's config file (/etc/sudoers)
+   comment "Defaults    !requiretty"
+
+4. if your pam through ldap, don't use this tools.
